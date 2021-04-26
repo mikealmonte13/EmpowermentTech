@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is an JS LMS Activity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      body {
+        background-image: url(background.jpg);
+        font-family: "Zilla Slab", serif;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin: 75px;
+        padding: 75px;
+      }
+      .text {
+        font-size: 10vh;
+        display: flex;
+        text-align: center;
+        border-radius: 10px;
+        max-height: auto;
+        max-width: auto;
+        padding: 25px;
+        backdrop-filter: blur(10px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <script>
+        a = -5;
+        b = -2;
+        c = -6;
+        d = 0;
+        f = -1;
+        if (a > b && a > c && a > d && a > f) {
+          // Write code block for if statement here
+          document.write("The Highest number from the specified integer variables is <br/> a = " + a);
+        } else if (b > a && b > c && b > d && b > f) {
+          // Write code block for else-if statement here
+          document.write("The Highest number from the specified integer variables is <br/> b = " + b);
+        } else if (c > a && c > b && c > d && c > f) {
+          // Write code block for else-if statement here
+          document.write("The Highest number from the specified integer variables is <br/> c = " + c);
+        } else if (d > a && d > c && d > b && d > f) {
+          // Write code block for else-if statement here
+          document.write("The Highest number from the specified integer variables is <br/> d = " + d);
+        } else {
+          // Write code block for else statement here
+          document.write("The Highest number from the specified integer variables is <br/> f = " + f);
+        }
+      </script>
+    </div>
+
+    <!-- Additional Features -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Photo by Cátia Matos from Pexels -->
+  </body>
+</html>

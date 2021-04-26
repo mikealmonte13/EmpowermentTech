@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Samsung Sans Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Samsung Sans Regular"), url("/samsung-sans\ webfont/SamsungSans-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Samsung Sharp Sans Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Samsung Sharp Sans Bold"), url("/samsung-sharp-sans\ webfont/samsungsharpsans-bold.woff") format("woff");
+}
+.content {
+  font-family: Samsung Sans Regular;
+  font-size: 10vh;
+  text-align: center;
+}
+.header {
+  font-family: Samsung Sharp Sans Bold;
+  text-align: center;
+  font-size: 10vh;
+}
+
+.countdown {
+  display: flexbox;
+  text-align: center;
+  border-radius: 10px;
+  max-height: auto;
+  max-width: auto;
+  padding: 125px;
+  backdrop-filter: blur(10px);
+}
+body {
+  padding: 10px;
+  background-image: url(./caley-dimmock-_HCpwe1-Prc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin: 75px;
+  padding: 75px;
+}
+@media only screen and (max-width: 2560px) {
+  /* For 4k: */
+  [class*="content"] {
+    font-size: 10vh;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="content"] {
+    font-size: 5vh;
+  }
+  [class*="header"] {
+    font-size: 8vh;
+    align-self: center;
+    justify-self: center;
+  }
+}
